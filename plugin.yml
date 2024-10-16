@@ -1,0 +1,14 @@
+name: FakeOP
+main: skyss0fly\FakeOP\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  fakeop:
+    description: Fake OP a player
+    usage: /fakeop <player>
+    permission: FakeOp.use
+permissions:
+ FakeOP.use:
+  description: fake op command
+  default: false
+  
