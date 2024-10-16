@@ -5,7 +5,6 @@ namespace skyss0fly\FakeOP;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\defaults\VanillaCommand;
 
 class Main extends PluginBase {
 
@@ -17,7 +16,7 @@ class Main extends PluginBase {
                     return false;
                 }
 
-                $player = $this->getServer()->getPlayer($args[0]);
+                $player = $sender->getServer()->getPlayer($args[0]);
                 if ($player === null) {
                     $sender->sendMessage("Player not found");
                     return false;
