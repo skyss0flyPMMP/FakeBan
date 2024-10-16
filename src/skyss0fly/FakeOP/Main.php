@@ -16,7 +16,7 @@ class Main extends PluginBase {
                     return false;
                 }
 
-                $player = $sender->getServer()->getPlayer($args[0]);
+                $player = $sender->getServer()->getPlayerExact($args[0]);
                 if ($player === null) {
                     $sender->sendMessage("Player not found");
                     return false;
