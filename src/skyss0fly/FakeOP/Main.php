@@ -5,6 +5,7 @@ namespace skyss0fly\FakeOP;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\command\defaults\VanillaCommand;
 
 class Main extends PluginBase {
 
