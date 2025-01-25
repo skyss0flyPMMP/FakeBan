@@ -6,7 +6,7 @@ commands:
   fakeop:
     description: Fake OP a player
     usage: /fakeop <player>
-    permission: FakeOp.use
+    permission: FakeOP.use
 permissions:
  FakeOP.use:
   description: fake op command
