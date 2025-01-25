@@ -10,5 +10,5 @@ commands:
 permissions:
  FakeOP.use:
   description: fake op command
-  default: false
+  default: op
   
