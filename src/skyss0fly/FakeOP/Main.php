@@ -5,6 +5,7 @@ namespace skyss0fly\FakeOP;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
 
@@ -22,7 +23,7 @@ class Main extends PluginBase {
                     return false;
                 } else {
                     $sender->sendMessage("You have FakeOP'd " . $player->getName());
-                    $player->sendMessage("[" . $sender->getName() . "] Opped " . $player->getName() . ".");
+                    $player->sendMessage(TEXTFORMAT::GRAY . TEXTFOORMAT:ITALIC . "[" . $sender->getName() . "] Opped " . $player->getName() . ".");
                 }
                 return true; // Make sure to return true to indicate command success
         }
