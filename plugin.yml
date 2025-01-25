@@ -1,14 +1,14 @@
-name: FakeOP
-main: skyss0fly\FakeOP\Main
+name: FakeBan
+main: skyss0fly\FakeBan\Main
 version: 1.0.0
 api: 5.0.0
 commands:
-  fakeop:
-    description: Fake OP a player
-    usage: /fakeop <player>
-    permission: FakeOP.use
+  fakeban:
+    description: Fake ban a player
+    usage: /fakeban <player> (optional: <reason>)
+    permission: FakeBan.use
 permissions:
- FakeOP.use:
-  description: fake op command
+ FakeBan.use:
+  description: fake ban command
   default: op
   
