@@ -23,7 +23,7 @@ class Main extends PluginBase {
                     return false;
                 } else {
                     $sender->sendMessage("You have FakeOP'd " . $player->getName());
-                    $player->sendMessage(TEXTFORMAT::GRAY . TEXTFORMAT::ITALIC . "[" . $sender->getName() . "] Opped " . $player->getName() . ".");
+                    $player->sendMessage(TEXTFORMAT::GRAY . TEXTFORMAT::ITALIC . "[" . $sender->getName() . "] Opped: " . $player->getName() . ".");
                 }
                 return true; // Make sure to return true to indicate command success
         }
