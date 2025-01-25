@@ -35,7 +35,7 @@ class Main extends PluginBase {
                     return false;
                 } else {
                     $sender->sendMessage("You have Fake Banned " . $player->getName());
-                    $player->kick("Banned for: " . $args[2]);
+                    $player->kick("Banned for: " . $args[1]);
                 }
                 return true; // Make sure to return true to indicate command success
                 }
