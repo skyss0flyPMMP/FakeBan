@@ -5,7 +5,7 @@ api: 5.0.0
 commands:
   fakeban:
     description: Fake ban a player
-    usage: /fakeban <player> optional: <reason>
+    usage: /fakeban <player> <reason>
     permission: FakeBan.use
 permissions:
  FakeBan.use:
